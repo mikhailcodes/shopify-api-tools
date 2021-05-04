@@ -1,0 +1,38 @@
+{
+  "name": "shopify-api-tools",
+  "version": "1.0.0",
+  "description": "Shopify API tools for private app integration with Shopify.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thev3ritas/shopify-api-tools.git"
+  },
+  "keywords": [
+    "npm",
+    "shopify",
+    "api",
+    "nodejs",
+    "shopify",
+    "app"
+  ],
+  "author": "Mikhail Arden <hello@mikhailarden.com> (https://mikhailarden.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thev3ritas/shopify-api-tools/issues"
+  },
+  "homepage": "https://github.com/thev3ritas/shopify-api-tools#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "gitignore": "^0.6.0",
+    "nodemon": "^2.0.7",
+    "shopify": "^0.1.0",
+    "shopify-api-node": "^3.6.11"
+  }
+}
